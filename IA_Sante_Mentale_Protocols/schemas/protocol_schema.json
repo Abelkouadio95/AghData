@@ -1,0 +1,35 @@
+{
+  "protocol_id": "string",
+  "label": "string",
+  "category": "TCC",
+  "description": "string",
+  "entry_conditions": {
+    "mood_score": "number | null",
+    "stress_level": "number | null",
+    "sleep_quality": "number | null",
+    "sentiment_flags": ["string"]
+  },
+  "steps": [
+    {
+      "step_id": "string",
+      "type": "psychoeducation | exercise | reflection",
+      "content": "string",
+      "exercise_ref": "string | null"
+    }
+  ],
+  "exit_criteria": {
+    "target_metric": "string",
+    "threshold": "number"
+  },
+  "monitoring_inputs": [
+    "mood_tracking",
+    "stress_tracking",
+    "sleep_tracking",
+    "sentiment_analysis"
+  ],
+  "safety": {
+    "crisis_detection": true,
+    "redirect_to_human": false,
+    "disclaimer": "Ce protocole ne constitue pas un diagnostic médical ni un traitement thérapeutique."
+  }
+}
