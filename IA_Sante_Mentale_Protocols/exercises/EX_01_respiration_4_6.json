@@ -1,0 +1,18 @@
+{
+  "exercise_id": "EX_01_respiration_4_6",
+  "label": "Respiration contrôlée 4-6",
+  "description": "Exercice de respiration visant à ralentir le rythme cardiaque et diminuer la tension physiologique liée au stress.",
+  "instructions": [
+    "Installe-toi dans une position confortable.",
+    "Inspire lentement par le nez pendant 4 secondes.",
+    "Expire lentement par la bouche pendant 6 secondes.",
+    "Répète le cycle pendant 3 minutes."
+  ],
+  "duration_minutes": 3,
+  "expected_effects": [
+    "Diminution de la tension musculaire",
+    "Ralentissement du rythme cardiaque",
+    "Sensation de contrôle accru"
+  ],
+  "contraindications": []
+}
